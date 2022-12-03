@@ -1,0 +1,13 @@
+galaxy_info:
+  role_name: desktopcheck
+  author: Viktor Berke
+  description: Determine whether the target host is a desktop system
+  license: license (MIT)
+  min_ansible_version: 2.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - bionic
+  galaxy_tags: []
+
+dependencies: []
