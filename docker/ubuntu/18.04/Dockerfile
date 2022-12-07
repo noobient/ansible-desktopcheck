@@ -7,5 +7,4 @@ RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3.7 get-pip.py
 RUN python3 -m pip install --user --no-warn-script-location ansible ansible-core
 ENV PATH="${PATH}:/root/.local/bin"
-RUN ansible-playbook --version
 WORKDIR "/repo"
