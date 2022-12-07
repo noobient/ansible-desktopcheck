@@ -5,3 +5,11 @@
         name: "{{ playbook_dir.split('/')[:-1] | last }}"
     - debug:
         msg: "Target is desktop: {{ target_is_desktop }}"
+    - name: Install GDM
+      package:
+        name: gdm3
+        state: latest
+    - include_role:
+        name: "{{ playbook_dir.split('/')[:-1] | last }}"
+    - debug:
+        msg: "Target is desktop: {{ target_is_desktop }}"
