@@ -10,7 +10,7 @@ N/A
 
 ## Examples
 
-```
+```yml
 - include_role:
     name: bviktor.desktopcheck
 ```
@@ -25,7 +25,7 @@ N/A
 
 | Platform | Support | Status |
 |---|---|---|
-| Linter | ✅ | |
+| Linter | ✅ | [![Lint](https://github.com/noobient/ansible-desktopcheck/actions/workflows/lint.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/lint.yml) |
 | AlmaLinux 8 | ❌ | N/A |
 | AlmaLinux 9 | ❌ | N/A |
 | Fedora 37 | ❌ | N/A |
