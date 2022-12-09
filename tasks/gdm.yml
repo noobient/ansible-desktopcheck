@@ -9,4 +9,4 @@
 
 - name: Register target desktop state
   set_fact:
-    target_is_desktop: "{% if apt_gdm3.rc == 0 %}True{% else %}False{% endif %}"
+    target_is_desktop: "{% if apt_gdm3.rc == 0 %}true{% else %}false{% endif %}"

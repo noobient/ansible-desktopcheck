@@ -1,12 +1,34 @@
-| Platforms |
-|---|
-| [![AlmaLinux 8](https://github.com/noobient/ansible-desktopcheck/actions/workflows/almalinux-8.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/almalinux-8.yml) |
-| [![AlmaLinux 9](https://github.com/noobient/ansible-desktopcheck/actions/workflows/almalinux-9.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/almalinux-9.yml) |
-| [![Fedora 37](https://github.com/noobient/ansible-desktopcheck/actions/workflows/fedora-37.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/fedora-37.yml) |
-| [![Ubuntu 18.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-18.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-18.04.yml) |
-| [![Ubuntu 20.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-20.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-20.04.yml) |
-| [![Ubuntu 22.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-22.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-22.04.yml) |
+# bviktor.desktopcheck
 
-| Linter |
-|---|
-| [![Lint](https://github.com/noobient/ansible-desktopcheck/actions/workflows/lint.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/lint.yml) |
+## Synopsys
+
+This role determines if the host is a desktop system.
+
+## Parameters
+
+N/A
+
+## Examples
+
+```
+- include_role:
+    name: bviktor.desktopcheck
+```
+
+## Return Values
+
+| Key | Type | Example | Description |
+|---|---|---|---|
+| `target_is_desktop` | boolean | `true` | Indicates if the host is a desktop or not |
+
+## Support
+
+| Platform | Support | Status |
+|---|---|---|
+| Linter | ✅ | |
+| AlmaLinux 8 | ❌ | N/A |
+| AlmaLinux 9 | ❌ | N/A |
+| Fedora 37 | ❌ | N/A |
+| Ubuntu 18.04 | ✅ | [![Ubuntu 18.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-18.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-18.04.yml) |
+| Ubuntu 20.04 | ✅ | [![Ubuntu 20.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-20.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-20.04.yml) |
+| Ubuntu 22.04 | ✅ | [![Ubuntu 22.04](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-22.04.yml/badge.svg)](https://github.com/noobient/ansible-desktopcheck/actions/workflows/ubuntu-22.04.yml) |
