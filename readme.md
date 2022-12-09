@@ -19,7 +19,7 @@ N/A
 
 | Key | Type | Example | Description |
 |---|---|---|---|
-| `target_is_desktop` | boolean | `true` | Indicates if the host is a desktop or not |
+| `target_is_desktop` | boolean | `true` | Indicates if the host is a desktop or not. |
 
 ## Support
 
