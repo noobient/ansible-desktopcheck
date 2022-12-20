@@ -5,6 +5,10 @@
         name: "{{ playbook_dir.split('/')[:-1] | last }}"
     - debug:
         msg: "Target is desktop: {{ target_is_desktop }}"
+    - name: Update apt cache
+      apt:
+        update_cache: true
+      when: ansible_os_family == 'Debian'
     - name: Install GDM
       package:
         name: gdm3
