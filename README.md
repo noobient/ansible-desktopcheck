@@ -1,4 +1,4 @@
-# bviktor.desktopcheck
+# noobient.desktopcheck
 
 ## Synopsys
 
