@@ -12,7 +12,7 @@ N/A
 
 ```yml
 - include_role:
-    name: bviktor.desktopcheck
+    name: noobient.desktopcheck
 ```
 
 ## Return Values
