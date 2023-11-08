@@ -28,7 +28,8 @@ N/A
 | Linter | ✅ | [![Lint](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/lint.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/lint.yml) |
 | AlmaLinux 8 | ❌ | N/A |
 | AlmaLinux 9 | ❌ | N/A |
-| Fedora 37 | ❌ | N/A |
+| Fedora 38 | ❌ | N/A |
+| Fedora 39 | ❌ | N/A |
 | Ubuntu 18.04 | ✅ | [![Ubuntu 18.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-18.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-18.04.yml) |
 | Ubuntu 20.04 | ✅ | [![Ubuntu 20.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-20.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-20.04.yml) |
 | Ubuntu 22.04 | ✅ | [![Ubuntu 22.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-22.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-22.04.yml) |
