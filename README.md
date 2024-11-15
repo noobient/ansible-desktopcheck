@@ -32,4 +32,4 @@ N/A
 | Fedora 41 | ❌ | N/A |
 | Ubuntu 20.04 | ✅ | [![Ubuntu 20.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-20.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-20.04.yml) |
 | Ubuntu 22.04 | ✅ | [![Ubuntu 22.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-22.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-22.04.yml) |
-| Ubuntu 24.04 | ✅ | [![Ubuntu 24.04](https://github.com/noobient/ansible-galaxy-thirdparty/actions/workflows/ubuntu-24.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-thirdparty/actions/workflows/ubuntu-24.04.yml) |
+| Ubuntu 24.04 | ✅ | [![Ubuntu 24.04](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-24.04.yml/badge.svg)](https://github.com/noobient/ansible-galaxy-desktopcheck/actions/workflows/ubuntu-24.04.yml) |
